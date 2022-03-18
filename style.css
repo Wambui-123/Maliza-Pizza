@@ -1,0 +1,27 @@
+.nav-bar{
+    position: sticky;
+    font-size: 20px;
+    /* background-image: url(/Images/background-home.jpg); */
+    height: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;  
+}
+ul li{
+    padding-right: 50px;
+}
+.row-container img{
+    width: 320px;
+    height: 320px;
+    padding: 20px;
+}
+.row-container img:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    width: 400px;
+}
+.footer-container{
+    list-style: none;
+}
