@@ -41,13 +41,17 @@ h2{
     font-size: 18px;
     text-align: center;
 }
+/* #form{
+    background-color: yellow;
+
+} */
 .form-check-label{
     padding-right: 200px;
     padding-left: 0px;
 }
 #print-crust, #print-size, #print-topping{
     position: relative;
-    left: 500px;
+    left: 350px;
 }
 
 

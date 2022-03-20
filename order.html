@@ -1,65 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div id="order-food">
-        <div id="pictures">
-          <div class="images" style="display: flex;">
-            <div>
-              <img src="./Images/Favourite/BBQ Chicken.webp" alt="BBQ CHICKEN">
-              <p>BBQ CHICKEN</p>
-              <p>Grilled Chicken,Red Onions,Sweet Corn & BBQ Sauce.</p>
+    <link rel="stylesheet" href="order.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>MALIZA PIZZA</h1>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./index.html">Home</a>
+          <a class="navbar-brand" href="./order.html">Order</a>
+        </div>
+      </div>
+    </nav>
+    <h2>PIZZA</h2>
+    <div id="pictures">
+      <p style="font-style: italic; font-size: 18px">Wanna make an order?</p>
+      <p style="font-style: italic; font-size: 18px">
+        Click on an image and make your order!
+      </p>
+      <div class="images" style="display: flex">
+        <div class="pizza">
+          <img src="./Images/Favourite/BBQ Chicken.webp" alt="BBQ CHICKEN" />
+          <p class="para1">BBQ CHICKEN</p>
+          <p class="para2">
+            Grilled Chicken, Red Onions, Sweet Corn & BBQ Sauce.
+          </p>
+        </div>
+        <div class="pizza">
+          <img
+            src="./Images/Favourite/Chicken Tikka.webp"
+            alt="CHICKEN TIKKA"
+          />
+          <p class="para1">CHICKEN TIKKA</p>
+          <p class="para2">
+            Chicken Tikka, Red Onions, Mixed Peppers, Red Chilli & Mushrooms
+          </p>
+        </div>
+        <div class="pizza">
+          <img src="./Images/Favourite/hawaiian.webp" alt="HAWAIIAN" />
+          <p class="para1">HAWAIIAN</p>
+          <p class="para2">Beef Ham & Pineapples</p>
+        </div>
+      </div>
+      <div class="images" style="display: flex">
+        <div class="pizza">
+          <img
+            src="./Images/Favourite/veggie delaux.webp"
+            alt="Veggie-delaux"
+          />
+          <p class="para1">VEGGIE DELAUX</p>
+          <p class="para2">
+            Red Onions, Mixed Peppers, Mushrooms, Black Olives & Fresh Tomatoes
+          </p>
+        </div>
+        <div class="pizza">
+          <img src="./Images/Favourite/extravaganza.webp" alt="Extravaganza" />
+          <p class="para1">EXTRAVAGANZA</p>
+          <p class="para2">
+            Beef Pepperoni, Beef Ham, Beef Italian Sausage, Beef Topping, Red
+            Onions & Mixed Peppers
+          </p>
+        </div>
+        <div class="pizza">
+          <img
+            src="./Images/Favourite/veggie-extravaganza.webp"
+            alt="Veggie-Extravaganza"
+          />
+          <p class="para1 one-line">VEGGIE-EXTRAVAGANZA</p>
+          <p class="para2">
+            Tomatoes, Mushrooms, Red Onions, Mixed Peppers, Black Olives, Sweet
+            Corn & Jalapeno
+          </p>
+        </div>
+      </div>
+    </div>
+    <h2>Drinks</h2>
+    <div id="drinks" style="width: 270px">
+      <div class="drinks-row">
+        <img src="./Images/Favourite/fanta-blackcurrent-2L.webp" alt="" />
+        <img src="./Images/Favourite/fanta-orange-2L.webp" alt="" />
+        <img src="./Images/Favourite/fanta-passion-2L.webp.webp" alt="" />
+      </div>
+      <div class="drinks-row">
+        <img src="./Images/Favourite/coke-2-litters.webp" alt="" />
+        <img src="./Images/coke-zero-2L.png" alt="" />
+        <img src="./Images/Favourite/sprite-2L.webp" alt="" />
+      </div>
+    </div>
+    <!-- form -->
+    <div id="contactForm">
+      <h1>BBQ CHICKEN</h1>
+      <small>I'll get back to you as quickly as possible</small>
+
+      <form action="#" id="form">
+        <img src="./Images/Favourite/hawaiian.webp" alt="" />
+        <h3>Desciption</h3>
+        <p>Grilled Chicken, Red Onions, Sweet Corn & BBQ Sauce.</p>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>Corn Meal</li>
+          <li>Bba Sauce</li>
+          <li>Cheese</li>
+          <li>Red Onion</li>
+          <li>Sweet Corn</li>
+          <li>Grilled Chicken</li>
+        </ul>
+        <!-- Drop Down -->
+        <!-- <h3>Choose your taste</h3> -->
+        <!-- <div class="dropdown" style="margin-bottom: 50px;">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-flip="false">
+              Size
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Small</button>
+              <button class="dropdown-item" type="button">Large</button>
+              <button class="dropdown-item" type="button">Medium</button>
             </div>
-            <div>
-              <img src="./Images/Favourite/Chicken Tikka.webp" alt="CHICKEN TIKKA">
-            <p>CHICKEN TIKKA</p>
-            <p>Chicken Tikka,Red Onions,Mixed Peppers,Red Chilli & Mushrooms</p>
-            </div>
-            <div>
-              <img src="./Images/Favourite/hawaiian.webp" alt="HAWAIIAN">
-              <p>HAWAIIAN</p>
-              <p>Beef Ham & Pineapples</p>
-            </div>
-         
+        </div> -->
+        <!-- <select name="" id="form-control" data-flip="false">
+             <option value="550">Small</option>
+             <option value="800">Medium</option>
+             <option value="1000">Large</option>
+         </select>
+         <select name="" id="form-control">
+             <option value="">Cheese</option>
+             <option value="">Olives</option>
+             <option value="">Pepperoni</option>
+         </select>
+         <select name="" id="form-control">
+            <option value="">Crispy</option>
+            <option value="">Gluten-free</option>
+            <option value="">Stuffed</option>
+        </select> -->
+
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt culpa nostrum consequatur quam vero dolor quidem magni labore eius, tenetur autem fugiat maiores enim aut ratione recusandae doloribus repellat velit.</p> -->
+        <div style="display: flex">
+          <h3 style="padding-right: 300px">Choose your size(Choose one)</h3>
+          <h3>Total</h3>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+            value="550"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">Small</label>
+          <span>+KSH 550</span>
+          <span id="print-size"></span>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            value="800"
+          />
+          <label class="form-check-label" for="flexRadioDefault2">Medium</label>
+          <span>+KSH 800</span>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault3"
+            value="1000"
+          />
+          <label class="form-check-label" for="flexRadioDefault3">Large</label>
+          <span>+KSH 1000</span>
+        </div>
+        <h3>Choose your Crust(Choose one)</h3>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault4"
+            value="200"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">Crispy</label>
+          <span>+KSH 200</span>
+          <span id="print-crust"></span>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault5"
+            value="200"
+          />
+          <label class="form-check-label" for="flexRadioDefault2"
+            >Stuffed</label
+          >
+          <span>+KSH 200</span>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault6"
+            value="200"
+          />
+          <label class="form-check-label" for="flexRadioDefault3"
+            >Gluten-Free</label
+          >
+          <span>+KSH 200</span>
+        </div>
+        <h3>Choose Your Extra Toppings(Choose one)</h3>
+        <h6>Cost depends on the size</h6>
+        <div class="toppings">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault7"
+            />
+            <label class="form-check-label" for="flexRadioDefault1"
+              >Chilli</label
+            >
+            <!-- <label>+KSH 200</label> -->
           </div>
-          <div class="images" style="display: flex;">
-            <div>
-              <img src="./Images/Favourite/veggie delaux.webp" alt="">
-              <p>VEGGIE DELAUX</p>
-              <p>Red Onions,Mixed Peppers,Mushrooms,Black Olives & Fresh Tomatoes</p>
-            </div>
-            <div>
-              <img src="./Images/Favourite/extravaganza.webp" alt="">
-              <p>EXTRAVAGANZA</p>
-              <p>Beef Pepperoni,Beef Ham,Beef Italian Sausage,Beef Topping,Red Onions & Mixed Peppers</p>
-            </div>
-            <div>
-              <img src="./Images/Favourite/veggie-extravaganza.webp" alt="Veggie-Extravaganza">
-              <p>VEGGIE-EXTRAVAGANZA</p>
-              <p>Tomatoes,Mushrooms,Red Onions,Mixed Peppers,Black Olives,Sweet Corn & Jalapeno</p>
-            </div>
-            
+          <span id="print-topping"></span>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault8"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault2"
+              >Olives</label
+            >
+            <!-- <label>+KSH 200</label> -->
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault9"
+              checked
+            />
+            <label class="form-check-label" for="flexRadioDefault3"
+              >Cheese</label
+            >
+            <!-- <label>+KSH 200</label> -->
           </div>
         </div>
-        <div class="container-form">
-            <label for="show" class="close-btn" title="close">×</label>
-            <h1>Welcome</h1>
-            <form action="#">
-                <label>Email or Phone</label>
-                <input type="text">
-                <label>Password</label>
-                <input type="password">
-                <a href="#">Forgot Password?</a>
-                <button>Submit</button>
-                <div class="link">Not a member? <a href="#">Sigup here</a></div>
-                
-            </form>
-        </div>
-    
-</body>
+        <button type="button" onclick="checkButton()">Order</button>
+        <!-- 
+      If else -->
+
+        <!--  <input placeholder="small" type="radio" required />
+    <input placeholder="Email" type="email" required />
+    <input placeholder="Subject" type="text" required />
+    <textarea placeholder="Comment"></textarea>
+    <input class="formBtn" type="submit" />
+    <input class="formBtn" type="reset" /> -->
+      </form>
+    </div>
+
+    <script src="./order.js"></script>
+  </body>
 </html>
