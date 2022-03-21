@@ -1,58 +1,86 @@
-.pizza img{
-    width: 400px;
+body{
+    background-image: url(./Images/Favourite/order-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#pictures .para1{
-    width: 200px;
-    margin-left: 80px;
-    margin-bottom: 10px;
-    margin-top: 0px;
+#heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
     text-align: center;
+    font-weight: bolder;
+}
+#question{
+    color: wheat;
     font-size: 20px;
     font-weight: bold;
+    font-style: oblique;
 }
-#pictures .para2{
-    width: 300px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    text-align: center;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 200px;
+#details{
+    color: white;
+    font-size: 20px;
+    margin-left: 295px;
+    font-weight: bold;
 }
-#pictures .para1.one-line{
-    width: 300px;
-    margin-left: 50px;
-} 
-.drinks-row{
-    display: flex;
-    justify-content: flex-start;
+#flavour{
+    margin-left: 350px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
 }
-.drinks-row img{
+#size{
+    margin-left: 435px;
+    font-size: 25px;
+    color: white;
+}
+#topping{
+    margin-left: 420px;
+    font-size: 25px;
+    color: white;
+}
+#crust{
+    margin-left: 415px;
+    font-size: 25px;
+    color: white;
+}
+.order{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    background-color: #eba834;
     width: 400px;
+    display: flex;
+    margin: 15px;
+    font-style: italic;
 }
-h2{
-    text-align: center; 
-    font-size: 30px;
-    text-decoration: underline;
+.check{
+    padding: 50px;
+}
+.btn{
+    width: 500px;
+    height: 500px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    display: none;
+  }
+#toggle{
+    display: none;
+    color: black;
+}
+.para{
+    display: none;
+    color: black;
 }
 
-.form-check-input{
-    font-size: 18px;
-    text-align: center;
+.delivery-section{
+    display: none;
 }
-/* #form{
-    background-color: yellow;
-
-} */
-.form-check-label{
-    padding-right: 200px;
-    padding-left: 0px;
+.navbar{
+    margin-left: 400px;
 }
-#print-crust, #print-size, #print-topping{
-    position: relative;
-    left: 350px;
+.navbar-brand{
+    color: red;
 }
-
 
 
