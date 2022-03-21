@@ -1,9 +1,9 @@
 .pizza img{
-    width: 400px;
+    width: 250px;
 }
 #pictures .para1{
     width: 200px;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-bottom: 10px;
     margin-top: 0px;
     text-align: center;
@@ -11,8 +11,8 @@
     font-weight: bold;
 }
 #pictures .para2{
-    width: 300px;
-    margin-left: 50px;
+    width: 320px;
+    margin-left: 0px;
     margin-bottom: 10px;
     margin-top: 0px;
     text-align: center;
@@ -24,13 +24,6 @@
     width: 300px;
     margin-left: 50px;
 } 
-.drinks-row{
-    display: flex;
-    justify-content: flex-start;
-}
-.drinks-row img{
-    width: 400px;
-}
 h2{
     text-align: center; 
     font-size: 30px;
