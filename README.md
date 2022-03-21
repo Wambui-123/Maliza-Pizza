@@ -23,7 +23,7 @@ This is for a company called Maliza pizza.Maliza Pizza makes and delivers pizzas
 -code . using Atom or Vscode
 
 ## Link to project
-https://wambui-123.github.io/Delani-Studio/
+https://wambui-123.github.io/Maliza-Pizza/
 
 ## License 
 MIT License
