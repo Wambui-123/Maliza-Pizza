@@ -16,7 +16,7 @@ body{
     font-style: oblique;
 }
 #details{
-    color: white;
+    color: wheat;
     font-size: 20px;
     margin-left: 295px;
     font-weight: bold;
@@ -25,22 +25,25 @@ body{
     margin-left: 350px;
     font-size: 20px;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 #size{
     margin-left: 435px;
     font-size: 25px;
     color: white;
+    font-weight: bolder;
 }
 #topping{
     margin-left: 420px;
     font-size: 25px;
     color: white;
+    font-weight: bolder;
 }
 #crust{
     margin-left: 415px;
     font-size: 25px;
     color: white;
+    font-weight: bolder;
 }
 .order{
     background: white;
