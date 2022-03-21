@@ -16,7 +16,7 @@ This is for a company called Maliza pizza.Maliza Pizza makes and delivers pizzas
 ## Installation/Set-up Guide
 -Open Terminal (Ctrl+Alt+T)
 
--Git clone using the repository link,git clone git@github.com:Wambui-123/Delani-Studio.git
+-Git clone using the repository link,git clone git@github.com:Wambui-123/Maliza-Pizza.git
 
 -cd Delani Studio 
 
